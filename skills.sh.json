@@ -1,0 +1,42 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Engineering Review",
+      "description": "Practical reviewers for design, delivery, and long-term maintainability.",
+      "skills": [
+        "senior-engineer",
+        "principal-engineer",
+        "staff-engineer",
+        "legacy-maintainer",
+        "devils-advocate"
+      ]
+    },
+    {
+      "title": "Architecture And Operations",
+      "description": "Skills for governance, reliability, and operating complex systems under pressure.",
+      "skills": [
+        "architecture-review-board",
+        "sre-oncall",
+        "performance-engineer"
+      ]
+    },
+    {
+      "title": "Risk And Quality",
+      "description": "Security, validation, and evidence-driven skepticism for risky changes.",
+      "skills": [
+        "security-team",
+        "qa-engineer",
+        "convince-me"
+      ]
+    },
+    {
+      "title": "Product And Strategy",
+      "description": "User value and business trade-off lenses for deciding what deserves investment.",
+      "skills": [
+        "product-manager"
+      ]
+    }
+  ]
+}
