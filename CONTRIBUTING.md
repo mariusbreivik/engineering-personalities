@@ -53,7 +53,16 @@ Each skill lives in `skills/<skill-name>/` and should contain:
 1. Open an issue if the change is large, especially for new personalities.
 2. Keep pull requests narrow and explain the intended behavior change.
 3. Include before-and-after examples when changing a skill's tone or verdict logic.
-4. Update `CHANGELOG.md` for notable additions or behavior changes.
+4. Use a squash commit title that follows the release convention when the change should publish a release.
+
+## Automated Releases
+
+- Releases are published automatically from merges to `main`.
+- Only commits with these squash commit titles publish releases:
+- `fix: ...` for patch releases
+- `feat: ...` for minor releases
+- `fix!: ...` or `feat!: ...` for breaking-change major releases
+- `docs:`, `chore:`, `refactor:`, and other commit types do not publish a release.
 
 ## Review Checklist
 

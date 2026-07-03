@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "convince-me": {
+      "source": "mariusbreivik/engineering-personalities",
+      "sourceType": "github",
+      "skillPath": "skills/convince-me/SKILL.md",
+      "computedHash": "c461cc8e8df187cd9b14a96baa2085424772f987f077992e62f2fadb78941223"
+    },
+    "legacy-maintainer": {
+      "source": "mariusbreivik/engineering-personalities",
+      "sourceType": "github",
+      "skillPath": "skills/legacy-maintainer/SKILL.md",
+      "computedHash": "710e63f63e849d8b3d3c8e6836611d22af7565cac0b22d1e742827827413f8c0"
+    }
+  }
+}
